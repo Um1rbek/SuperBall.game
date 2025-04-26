@@ -34,13 +34,13 @@ let timeLeft = 60;
                             
                             ball.addEventListener("click" , () => {
                                 alert( name + " you are win")
-                                window.location.href = '../enter.html';
+                                window.location.href = '../log.html';
                             })
             
             if (timeLeft <= 0) {
                 clearInterval(timerId);
-                timeDisplay.textContent = window.location.href = '../enter.html';;
-                window.location.href = '../enter.html';
+                timeDisplay.textContent = window.location.href = '../log.html';
+                window.location.href = '../log.html';
 
 
             }

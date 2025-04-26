@@ -11,7 +11,7 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
       localStorage.setItem('username', username);
   
       // Sahifani welcome.html ga yo'naltirish
-      window.location.href = '../ball.html';
+      window.location.href = './ballhight/ball.html';
     } else {
       document.getElementById('errorMsg').textContent = 'Incorrect password!';
     }
